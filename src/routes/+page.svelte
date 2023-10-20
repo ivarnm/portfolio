@@ -1,26 +1,48 @@
-<script>
-	import Title from '../components/title.svelte';
-	let title = 'Nija Gaming Guides';
 
-	const updateTitle = () => {
-		title = 'derp';
-	};
+<script>
+  /** @type {import('./$types').PageData} */
+  export let data
+
+	import About from '$lib/components/about.svelte';
+	import Projects from '$lib/components/projects.svelte';
+
 </script>
 
 <div class="index">
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates libero molestiae esse eos
-		quod totam eum beatae ab, quos minima! Temporibus eligendi molestiae minus, officiis ullam
-		voluptas perferendis rerum! Earum.
-	</p>
-	<a href="/guides">Guides</a>
-	<a href="/about">About</a>
+	<div class="title">
+		Sara<br>Hafezi
+	</div>
+	<About />
+	<!-- <Projects projects={data.projects} /> -->
 </div>
+
 
 <style>
 	.index {
-		text-align: center;
-		display: block;
-		margin: 20px auto;
+		margin: 170px auto 0 auto;
+		max-width: 900px;
+		/* background-color: white; */
+	}
+
+	.title {
+		font-family: 'BioRhyme Expanded', serif;
+		font-size: 48px;
+		margin-left: 69px;
+	}
+
+	.projects {
+		margin-top: 20px;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	a {
+		display: inline-block;
+		margin-top: 10px;
+		padding: 10px;
+		border: 1px dotted rgba(255, 255, 255, 0.2);
 	}
 </style>
