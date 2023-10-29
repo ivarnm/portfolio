@@ -1,0 +1,44 @@
+[
+  {
+    "id": "walkmore",
+    "title": "WALKMORE",
+    "description": "Dette er mitt første prosjekt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fcover.jpg?alt=media&token=77bee112-f947-4504-963a-f65a5ba8fccd"
+  },
+  {
+    "id": "ntnu-spas",
+    "title": "Framtidens Capmus, SPAS",
+    "description": "Dette er mitt andre prosjekt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2Fcover.PNG?alt=media&token=1d158193-68b6-4a34-9051-5cb39e610f3b"
+  },
+  {
+    "id": "klostergata56",
+    "title": "Klostergata 56 Co-Design",
+    "description": "Dette er mitt første prosjekt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/klostergata%2Fcover.jpg?alt=media&token=5e7b9c1c-9473-44ce-a844-61177fdde848"
+  },
+  {
+    "id": "saving-the-postcard",
+    "title": "Saving the Postcard",
+    "description": "Dette er mitt andre prosjekt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/postcard%2Fcover.jpg?alt=media&token=2d44387f-bdda-4b2c-8aa4-d76e1e396fbd"
+  },
+  {
+    "id": "nyreina",
+    "title": "Nyreina områdereguleringsplan",
+    "description": "Dette er mitt første prosjekt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fcover.png?alt=media&token=62a2c17a-6dfc-413a-9399-99ef76ff4931"
+  },
+  {
+    "id": "yves-rocher",
+    "title": "Yves Rocher utstilling",
+    "description": "Dette er mitt andre prosjekt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/yves-rocher%2Fcover.png?alt=media&token=dbef6046-8a18-4106-9d90-5dabee76755e"
+  },
+  {
+    "id": "naft-sfo",
+    "title": "Naft SFO",
+    "description": "Dette er mitt andre prosjekt",
+    "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/sfo%2Fcover.png?alt=media&token=709bcb01-6e43-4323-9dea-3cc2bccc5e82"
+  }
+]

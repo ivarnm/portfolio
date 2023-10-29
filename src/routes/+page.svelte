@@ -1,48 +1,78 @@
-
 <script>
-  /** @type {import('./$types').PageData} */
-  export let data
+	/** @type {import('./$types').PageData} */
+	export let data;
 
 	import About from '$lib/components/about.svelte';
+	import ColumnLayout from '$lib/components/columnLayout.svelte';
+	import Image from '$lib/components/image.svelte';
+	import Line from '$lib/components/line.svelte';
 	import Projects from '$lib/components/projects.svelte';
-
+	import ToTop from '$lib/components/toTop.svelte';
 </script>
 
 <div class="index">
-	<div class="title">
-		Sara<br>Hafezi
-	</div>
-	<About />
-	<!-- <Projects projects={data.projects} /> -->
-</div>
+	<ColumnLayout>
+		<div slot="column1">
+			<div class="title">
+				Sara<br />Hafezi<br /> 
+			</div>
+			<About />
+			<Line
+				data={{
+					// height: '1450px',
+					// margin: '303px 0 23px 69px'
+					height: '1490px',
+					margin: '353px 0 23px 69px'
+				}}
+			/>
+			<div class="to-top">
+				<ToTop />
+			</div>
+		</div>
+		<div slot="column2">
+			<div class="profile">
+				<Image
+					data={{
+						image:
+							'https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/sara.png?alt=media&token=c6df463b-7e73-4ba1-91ef-cbd10a4deaba',
+						alt: 'profilbilde',
+						width: '195px',
+						minHeight: '226px',
+						opacity: '90%'
+					}}
+				/>
+			</div>
+			<Line
+				data={{
+					height: '300px',
+					margin: '34px 0 -46px 234px'
+				}}
+			/>
+			<Projects projects={data.projects} />
+		</div>
+	</ColumnLayout>
 
+</div>
 
 <style>
 	.index {
-		margin: 170px auto 0 auto;
-		max-width: 900px;
+		margin: 170px auto 50px auto;
+		max-width: 770px;
 		/* background-color: white; */
 	}
 
 	.title {
 		font-family: 'BioRhyme Expanded', serif;
-		font-size: 48px;
-		margin-left: 69px;
+		font-size: 40px;
+		/* margin: 0 0 45px 40px; */
+		margin: 0 0 85px 40px;
 	}
 
-	.projects {
-		margin-top: 20px;
+	.profile {
+		margin: 40px 0 0 136px;
 	}
 
-	ul {
-		list-style-type: none;
-		padding: 0;
-	}
-
-	a {
-		display: inline-block;
-		margin-top: 10px;
-		padding: 10px;
-		border: 1px dotted rgba(255, 255, 255, 0.2);
+	.to-top {
+		margin-left: 0px;
 	}
 </style>

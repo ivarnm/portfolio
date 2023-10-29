@@ -1,27 +1,34 @@
 <script>
-  export let project;
+  import { css } from '@emotion/css'
+  
+  export let data;
+
+  const image = css`
+    width: ${data.width};
+    min-height: ${data.minHeight ? data.minHeight : 0};
+  `;
+
+  const img = css`
+    opacity: ${data.opacity};
+  `;
 </script>
 
-<div>
-  <a class="project" href={`/prosjekter/${project.id}`}>
-    <img src={project.image} alt="">
-    <div class="overlay"></div>
-  </a>
-  <h3>{project.title}</h3>
+<div class="image {image}">
+  <img class="{img}" src={data.image} alt={data.alt}>
+  <div class="overlay"></div>
 </div>
 
-<style>
+<!-- <div class={image}>
+  {data.src}
+</div> -->
 
-  .project {
+<style>
+  .image {
     display: flex;
     position: relative;
-    width: 477px;
-    height: 156px;
-    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     --transistion-duration: 0.3s;
   }
 
@@ -39,21 +46,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(220, 220, 220, 0.52);
+    background-color: rgba(0, 0, 0, 0);
     transition: background-color var(--transistion-duration);
   }
 
-  .project:hover .overlay {
-    background-color: rgba(220, 220, 220, 0);
-  }
-
-  .project:hover img {
-    transform: scale(1.0);
-  }
-
-  h3 {
-    margin: 0 0 5px 0;
-    font-size: 24px;
-  }
-  
 </style>

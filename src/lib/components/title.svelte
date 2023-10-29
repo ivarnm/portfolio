@@ -1,5 +1,5 @@
 <script>
-	export let title = 'SARA HAFEZI';
+	export let title = 'Sara Hafezi Myrstad';
 </script>
 
 <a class="title" href="/">

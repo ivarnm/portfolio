@@ -9,7 +9,7 @@
   .construction {
     display: flex;
     width: 100%;
-    height: 70px;
+    height: 50px;
     justify-content: space-between;
     align-items: center;
     background-color: #231F20;
@@ -27,7 +27,7 @@
 
   p {
     color: #FEF200;
-    font-size: 25px;
+    font-size: 20px;
     font-family: monospace;
     text-transform: uppercase;
   }

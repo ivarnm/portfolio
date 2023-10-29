@@ -1,13 +1,17 @@
 import { error, redirect } from '@sveltejs/kit';
-import projects from "$lib/projects.json"
 
 /** @type {import('./$types').PageLoad} */
 export async function load({ fetch, params }) {
-  console.log("hei");
-  const project = projects.find(p => p.id === params.id)
-  console.log(project);
+
+  var url = `/projects/${params.id}.json`;
+  var response = await fetch(url);
+  if (!response.ok) {
+    throw redirect(307, "/")
+  }
+  const project = await response.json();
+
   if (project === undefined) {
-    throw redirect(307, "/prosjekter")
+    throw redirect(307, "/")
   }
 
   return { project };
