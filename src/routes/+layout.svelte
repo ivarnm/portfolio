@@ -2,14 +2,14 @@
 	import "../styles/fonts.css"
 	import "../styles/global.css"
 	import { page } from "$app/stores"
-	import UnderConstruction from "$lib/components/UnderConstruction.svelte";
+	// import UnderConstruction from "$lib/components/UnderConstruction.svelte";
 
 	$: path = $page.url.pathname;
 	
 </script>
 
 <div>
-	<UnderConstruction />
+	<!-- <UnderConstruction /> -->
 	{#if path !== "/"}
 		<header>
 			<a class="home" href="/">Sara Hafezi Myrstad</a>
