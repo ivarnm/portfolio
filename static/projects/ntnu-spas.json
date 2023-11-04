@@ -1,6 +1,127 @@
 {
   "id": "ntnu-spas",
-  "title": "Framtidens Capmus, SPAS",
-  "description": "Framtidens campus",
-  "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2Fcover.PNG?alt=media&token=1d158193-68b6-4a34-9051-5cb39e610f3b"
+  "content": [
+    [
+      {
+        "type": "Header",
+        "value": "Framtidens Campus: Shared Spaces for Innovation (SPAS)",
+        "year": "2021-2023",
+        "fontSize": "22px",
+        "width": "358px"
+      },
+      {
+        "type": "Text",
+        "text": "Prosjektet NTNU SPAS \"Shared Spaces for Innovation\" søker å utforske potensialet til åpne delte rom som motoren for å forbinde mennesker, vekke inspirasjon og fremme nye ideer, kreativitet så vel som innovasjon. NTNU SPAS Fase II har som mål å beskrive og forstå situasjonen til offentlige rom på NTNUs hovedcampus i Gløshaugen, Trondheim.",
+        "width": "377px",
+        "margin": "74px 0 0 160px"
+      },
+      {
+        "type": "Line",
+        "height": "472px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FIMG_0304.JPG?alt=media",
+        "alt": "Stand med postere av prosjetet",
+        "width": "489px",
+        "minHeight": "367px",
+        "opacity": "80%"
+      },
+      {
+        "type": "Text",
+        "text": "For å gi deltakerne en klar idé om offentlige rom på campus utarbeidet vi et Nolli-kart. Hvit viser de offentlige områdene på campus som ikke trenger korttilgang i arbeidstiden og svart viser private eller begrensede områder.",
+        "width": "377px",
+        "margin": "529px 0 0 160px"
+      },
+      {
+        "type": "Line",
+        "height": "558px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FIMG_6880.JPG?alt=media",
+        "alt": "Person som holder foredrag under et workshop",
+        "width": "489px",
+        "minHeight": "325px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FIMG_6947.JPG?alt=media",
+        "alt": "Gruppe som sitter rundt et bord og diskuterer under workshopen",
+        "width": "489px",
+        "minHeight": "325px",
+        "margin": "20px 0 20px 0"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FIMG_6999.JPG?alt=media",
+        "alt": "Tavle med ideer fra workshopen",
+        "width": "489px",
+        "minHeight": "325px"
+      }
+    ],
+    [
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FInPersonMapSurvey.PNG?alt=media",
+        "alt": "Resultater fra et av workshopene i GIS om deltakernes favorittsteder.",
+        "width": "364px",
+        "minHeight": "520px",
+        "margin": "50px 0 0 188px",
+        "showAlt": true
+      },
+      {
+        "type": "Line",
+        "height": "368px",
+        "margin": "16px 0 16px 252px"
+      },
+      {
+        "type": "Text",
+        "text": "Som forskningsassistent omfattet ansvaret for SPAS-prosjektet prosjektledelsesoppgaver. Starten av prosjektet bestod av strategiutforming, testworkshoper med GIS kartlegging, og interessentkartlegging. Sluttfasen inkluderte interessentengasjement og kommunikasjon, workshoparrangement, dokumentasjonsteamledelse og rapporter.",
+        "width": "394px",
+        "margin": "0 0 44px 44px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FIMG_0305.JPG?alt=media",
+        "alt": "Bilde av meg som står på stand",
+        "width": "364px",
+        "minHeight": "273px",
+        "margin": "50px 0 0 188px",
+        "opacity": "80%"
+      },
+      {
+        "type": "Line",
+        "height": "242px",
+        "margin": "16px 0 16px 252px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FNolli%20Map.PNG?alt=media",
+        "alt": "Nolli-kart av Gløshaugen, NTNU",
+        "width": "364px",
+        "minHeight": "520px",
+        "margin": "0 0 0 188px"
+      },
+      {
+        "type": "Text",
+        "text": "Workshopen inkluderte presentasjoner av eksperter innen offentlig rom og fellesskap som Aksel Tjora og aktiviteter for deltakere som fremmer ideer for å forbedre det offentlige rommet på campus.",
+        "width": "371px",
+        "margin": "505px 0 0 181px"
+      },
+      {
+        "type": "Line",
+        "height": "642px",
+        "margin": "16px 0 16px 252px"
+      },
+      {
+        "type": "Text",
+        "text": "For mer informasjon se SPAS eller Framtidens Campus sine nettsider.",
+        "width": "371px",
+        "margin": "0 0 0 181px"
+      }
+    ]
+  ]
 }

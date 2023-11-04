@@ -1,5 +1,5 @@
 <script>
-	import ProjectItem from "./projectItem.svelte";
+	import ProjectItem from "./ProjectItem.svelte";
 
   export let projects = [];
 </script>

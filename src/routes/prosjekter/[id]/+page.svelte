@@ -1,19 +1,38 @@
 <script>
-    /** @type {import('./$types').PageData} */
-    export let data
-    
+	import ToTop from '$lib/components/toTop.svelte';
+	import ColumnLayout from '$lib/components/ColumnLayout.svelte';
+  import Item from '$lib/components/Item.svelte';
+  
+	/** @type {import('./$types').PageData} */
+	export let data;
+	// console.log(data);
 </script>
 
-<div class="project">
-  <h2>{data.project.title}</h2>
-  <p>{data.project.description}</p>
-  <img src="{data.project.image}" alt="Ranheim" />
+<div class="page">
+	<ColumnLayout>
+		<div slot="column1">
+			{#each data.project.content[0] as item}
+				<Item data={item} />
+			{/each}
+		</div>
+		<div slot="column2">
+			{#each data.project.content[1] as item}
+        <Item data={item} />
+			{/each}
+		</div>
+	</ColumnLayout>
+  <div class="to-top">
+    <ToTop />
+  </div>
 </div>
 
 <style>
-  .project {
-    margin-top: 40px;
-    padding: 10px;
-    border: 1px dotted rgba(255, 255, 255, 0.2);
+	.page {
+		margin: 170px auto 50px auto;
+		max-width: 1108px;
+	}
+
+  .to-top {
+    margin: 150px 0 0 160px;
   }
 </style>

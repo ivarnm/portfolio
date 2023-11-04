@@ -1,6 +1,111 @@
 {
   "id": "nyreina",
   "title": "Nyreina områdereguleringsplan",
-  "description": "Nyreina",
-  "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fcover.png?alt=media&token=62a2c17a-6dfc-413a-9399-99ef76ff4931"
+  "content": [
+    [
+      {
+        "type": "Header",
+        "value": "Nyreina Områdeplan",
+        "year": "2023",
+        "width": "358px"
+      },
+      {
+        "type": "Text",
+        "text": "Reina er en bydel i Trondheim med en sterk industriell og sosial historie. Dette prosjektet hadde som mål å foreslå arealløsninger og forslag innen reguleringsplanlegging for å skape et levende og bærekraftig nabolag som passer inn i området. Kravet til det tverrfaglige teamet av arkitekter, fysiske planleggere og eiendomsforvaltningseksperter, var å tilby en blandet arealbruk av boliger og kommersiell virksomhet. Målet var å skape et område som er et fyrtårn for andre områder når det gjelder bærekraftige mobilitetsnettverk, arealbruk og aktiviteter.",
+        "width": "377px",
+        "margin": "128px 0 0 160px"
+      },
+      {
+        "type": "Line",
+        "height": "281px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Freina%20mobility%2C%20transport%20and%20access.png?alt=media",
+        "alt": "Mobilitet, transport og tilgjengelighet i Reina",
+        "width": "809px",
+        "minHeight": "569px",
+        "margin": "0 0 390px 0"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fperspective.png?alt=media",
+        "alt": "Perspektiv av Reina",
+        "width": "1108px",
+        "minHeight": "668px"
+      },
+      {
+        "type": "Line",
+        "height": "227px",
+        "margin": "16px 0 1009px 160px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2FSiteplan-Group4.jpg?alt=media",
+        "alt": "Reguleringsplan",
+        "width": "1108px",
+        "minHeight": "783px",
+        "margin": "0 0 150px 0"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fpie%20chart.jpg?alt=media",
+        "alt": "Boenhetstypologier basert på kvadratmeterareal.",
+        "width": "536px",
+        "minHeight": "539px",
+        "showAlt": true,
+        "altMargin": "17px 0 0 142px"
+      }
+    ],
+    [
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2FReina%20site%20analyse.png?alt=media",
+        "alt": "Stedsanalyse",
+        "width": "547px",
+        "minHeight": "730px",
+        "margin": "40px 0 671px 5px"
+      },
+      {
+        "type": "Text",
+        "text": "Prosjektet brukte også Superblock-modellen for prosjektområdets mobilitetsnett som betyr at bilene vil ha lavere hastighet (inntil 10 km/t) innenfor blokkområdene og normal hastighet i de tilhørende veiene. For å sikre lav hastighet på bilene og en visuell sammenheng med sentrumsområdet, var det foreslåtte vegdekkematerialet i prosjektet brostein.",
+        "width": "377px",
+        "margin": "0 0 0 65px"
+      },
+      {
+        "type": "Line",
+        "height": "155px",
+        "margin": "16px 0 719px 252px"
+      },
+      {
+        "type": "Text",
+        "text": "For å respektere de omkringliggende områdene fulgte de foreslåtte typologiene deres former og arealbruk. Området lå for eksempel rett ved Svartlamoen, et unikt byøkologisk nabolag. For å ivareta det helhetlige området, samt en jevn overgang, ble det plassert en buffer av vegetasjon etter rekkehusene mellom nabolaget og resten av området.",
+        "width": "377px",
+        "margin": "0 0 0 65px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fsite.png?alt=media",
+        "alt": "Kart over Reina",
+        "width": "946px",
+        "minHeight": "689px",
+        "margin": "35px 0 0 -394px"
+      },
+      {
+        "type": "Line",
+        "height": "273px",
+        "margin": "16px 0 1218px 252px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fstats.jpg?alt=media",
+        "alt": "Statistikk på antall boenheter",
+        "width": "570px",
+        "minHeight": "278px",
+        "margin": "0 0 0 -18px"
+      }
+
+    ]
+  ]
 }

@@ -1,6 +1,170 @@
 {
   "id": "walkmore",
-  "title": "WALKMORE",
-  "description": "Walkmore",
-  "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fcover.jpg?alt=media&token=77bee112-f947-4504-963a-f65a5ba8fccd"
+  "content": [
+    [
+      {
+        "type": "Header",
+        "value": "WALKMORE",
+        "year": "2023"
+      },
+      {
+        "type": "Text",
+        "text": "Dette prosjektet utforsker gangvennlighet, inkluderende mobilitet og byrom i mindre norske byer med et mål om å forstå hvordan gangvennlighet kan skape inkluderende rom og fremme bærekraftig transport. Fokuset ligger på viktigheten av gangvennlighet i utformingen av inkluderende rom, rollen til ulike befolkningsgrupper i utformingen av inkluderende mobilitet, hvordan ulike befolkningsgrupper påvirker utformingen av inkluderende mobilitet, de ulike behovene for å gå i forskjellige sosiodemografiske grupper, forbedringspunkter i planleggingen av gangvennlighet i mindre byer og anvendelige metoder. Denne masteroppgaven er en del av WALMORE prosjektet ved Transportøkonomisk institutt (TØI).",
+        "width": "377px",
+        "margin": "178px 0 0 160px"
+      },
+      {
+        "type": "Line",
+        "height": "270px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fpeople%20walk.jpg?alt=media",
+        "alt": "Folk som går på et fortau",
+        "width": "537px",
+        "minHeight": "805px"
+      },
+      {
+        "type": "Text",
+        "text": "Forbedringspunkter inkluderer tydelige målsetninger, interessentengasjement og tilpasning til urbane bærekraftsmål.\n\nResultatene impliserer behovet for utfyllende vurderingsrammer som tar hensyn til demografiske endringer og befolkningsbehov i bærekraftig transportplanlegging samt integrering av kvalitative og kvantitative metoder. Forskningen bidrar til diskusjonen om gangvennlighet og gir anbefalinger for å skape gangbare og inkluderende byer.",
+        "width": "377px",
+        "margin": "108px 0 0 160px"
+      },
+      {
+        "type": "Line",
+        "height": "582px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fsenior%20group.jpg?alt=media",
+        "alt": "Medvirkningsworkshop med fokusgruppen eldre.",
+        "width": "536px",
+        "minHeight": "403px",
+        "opacity": "80%",
+        "showAlt": true,
+        "altMargin": "17px 0 0 160px"
+      },
+      {
+        "type": "Line",
+        "height": "364px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "Text",
+        "text": "Funnene fremhever viktigheten av gangvennlighet når man designer inkluderende rom, fremmer aktiv mobilitet og rettferdig tilgang til tjenester. De indikerer at kravene for å kunne gå varierer blant de sosiodemografiske gruppene med tanke på faktorer som infrastruktur, fasiliteter og attraktivitet. De kvantitative analysene viste at kjønn, alder og hvor lenge man har bodd i byen påvirker innbyggernes oppfatning av gangvennligheten i sentrum. I tillegg påvirket kjønn, alder, utdanningsnivå og førerkort befolkningens gåvaner i de ulike årstidene betydelig.",
+        "width": "377px",
+        "margin": "0 0 55px 160px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fkongsvinger%20amenity.jpg?alt=media",
+        "alt": "Kart over Kongsvinger",
+        "width": "608px",
+        "minHeight": "500px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Ffeedback.png?alt=media",
+        "alt": "Strategisk kart av løsninger basert på resultater fra kvalitative og kvantitative analyser.",
+        "width": "947px",
+        "minHeight": "639px",
+        "margin": "150px 0 0 160px"
+      },
+      {
+        "type": "Text",
+        "text": "Strategisk kart av løsninger basert på resultater fra kvalitative og kvantitative analyser.",
+        "width": "371px",
+        "margin": "50px 0 0 0"
+      },
+      {
+        "type": "Line",
+        "height": "206px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fideas.png?alt=media",
+        "alt": "Visuell demonstrasjon av ideer og løsninger for gangvennlig og inkluderende rom. Det er viktig å bruke felleskapet til å skape eierskap og inkludering.",
+        "width": "1106px",
+        "minHeight": "743px",
+        "showAlt": true,
+        "altMargin": "17px 0 0 160px"
+      },
+      {
+        "type": "Line",
+        "height": "178px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "LinkImage",
+        "link": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2FMaster.pdf?alt=media",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2FMaster_cover.jpg?alt=media",
+        "alt": "Last ned masteroppgaven",
+        "width": "275px",
+        "minHeight": "390px",
+        "showAlt": true,
+        "altMargin": "6px 0 0 0px"
+      }
+    ],
+    [
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fcover2.jpg?alt=media",
+        "alt": "Teller som teller antall sykler som passerer",
+        "width": "487px",
+        "minHeight": "730px",
+        "margin": "43px 0 0 65px"
+      },
+      {
+        "type": "Text",
+        "text": "Med grunnlag i sosial praksisteori og retten til byen, legger det teoretiske rammeverket vekt på å forstå de sosiale og fysiske aspektene som påvirker våre gåvaner og fremme rettferdig tilgang til urbane ressurser. Forskningsmetodikken kombinerer kvalitative og kvantitative metoder for å analysere gangvennlighet og dens forskjeller i ulike befolkningsgrupper.",
+        "width": "377px",
+        "margin": "258px 0 0 46px"
+      },
+      {
+        "type": "Line",
+        "height": "574px",
+        "margin": "16px 0 16px 252px"
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fyouth%20group.jpg?alt=media",
+        "alt": "Medvirkningsworkshop med fokusgruppen unge voksne.",
+        "width": "487px",
+        "minHeight": "649px",
+        "margin": "0 0 606px 65px",
+        "opacity": "90%",
+        "showAlt": true
+      },
+      {
+        "type": "Image",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fimmigrant%20workshop.jpg?alt=media",
+        "alt": "Medvirkningsworkshop med fokusgruppen invandrere.",
+        "width": "487px",
+        "minHeight": "325px",
+        "margin": "0 0 0 65px",
+        "opacity": "90%",
+        "showAlt": true
+      },
+      {
+        "type": "Line",
+        "height": "1060px",
+        "margin": "16px 0 16px 252px"
+      },
+      {
+        "type": "Line",
+        "height": "455px",
+        "margin": "1820px 0 16px 252px"
+      },
+      {
+        "type": "Video",
+        "margin": "0 0 0 -82px",
+        "width": "634px",
+        "source": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2FSara.mp4?alt=media&token=e216f69f-ebef-4862-bba2-dad67bca7142",
+        "text": "Se presentasjonen"
+      }
+    ]
+  ]
 }

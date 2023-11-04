@@ -15,11 +15,11 @@
 
 <style>
   .row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .column {
-    flex: 50%;
     /* border: 1px dotted #ff8d8d; */
     position: relative;
   }

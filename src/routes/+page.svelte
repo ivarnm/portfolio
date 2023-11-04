@@ -2,39 +2,37 @@
 	/** @type {import('./$types').PageData} */
 	export let data;
 
-	import About from '$lib/components/about.svelte';
-	import ColumnLayout from '$lib/components/columnLayout.svelte';
-	import Image from '$lib/components/image.svelte';
-	import Line from '$lib/components/line.svelte';
-	import Projects from '$lib/components/projects.svelte';
-	import ToTop from '$lib/components/toTop.svelte';
+	import About from '$lib/components/About.svelte';
+	import ColumnLayout from '$lib/components/ColumnLayout.svelte';
+	import Image from '$lib/components/Image.svelte';
+	import Line from '$lib/components/Line.svelte';
+	import Projects from '$lib/components/Projects.svelte';
+	import ToTop from '$lib/components/ToTop.svelte';
 </script>
 
 <div class="index">
 	<ColumnLayout>
 		<div slot="column1">
 			<div class="title">
-				Sara<br />Hafezi<br /> 
+				Sara<br />Hafezi<br />Myrstad 
 			</div>
 			<About />
-			<Line
+			<!-- <Line
 				data={{
-					// height: '1450px',
-					// margin: '303px 0 23px 69px'
-					height: '1490px',
-					margin: '353px 0 23px 69px'
+					height: '1450px',	
+					margin: '303px 0 23px 69px'
 				}}
 			/>
 			<div class="to-top">
 				<ToTop />
-			</div>
+			</div> -->
 		</div>
 		<div slot="column2">
 			<div class="profile">
 				<Image
 					data={{
 						image:
-							'https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/sara.png?alt=media&token=c6df463b-7e73-4ba1-91ef-cbd10a4deaba',
+							'https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/sara.png?alt=media',
 						alt: 'profilbilde',
 						width: '195px',
 						minHeight: '226px',
@@ -58,14 +56,12 @@
 	.index {
 		margin: 170px auto 50px auto;
 		max-width: 770px;
-		/* background-color: white; */
 	}
 
 	.title {
 		font-family: 'BioRhyme Expanded', serif;
 		font-size: 40px;
-		/* margin: 0 0 45px 40px; */
-		margin: 0 0 85px 40px;
+		margin: 0 0 45px 40px;
 	}
 
 	.profile {
