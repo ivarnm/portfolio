@@ -1,5 +1,5 @@
 <script>
-	import ToTop from '$lib/components/toTop.svelte';
+	import ToTop from '$lib/components/ToTop.svelte';
 	import ColumnLayout from '$lib/components/ColumnLayout.svelte';
   import Item from '$lib/components/Item.svelte';
   
