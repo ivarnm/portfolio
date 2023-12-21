@@ -4,7 +4,7 @@
     [
       {
         "type": "Header",
-        "value": "Framtidens Campus: Shared Spaces for Innovation (SPAS)",
+        "value": "Fremtidens Campus: Shared Spaces for Innovation (SPAS)",
         "year": "2021-2023",
         "fontSize": "22px",
         "width": "358px"
@@ -118,7 +118,7 @@
       },
       {
         "type": "Text",
-        "text": "For mer informasjon se SPAS eller Framtidens Campus sine nettsider.",
+        "text": "For mer informasjon se SPAS eller Fremtidens Campus sine nettsider.",
         "width": "371px",
         "margin": "0 0 0 181px"
       }
