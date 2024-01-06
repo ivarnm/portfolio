@@ -1,33 +1,42 @@
 <script>
-	/** @type {import('./$types').PageData} */
-	export let data;
-
+	import { onMount, onDestroy } from 'svelte';
+	import { browser } from '$app/environment';
 	import About from '$lib/components/About.svelte';
 	import ColumnLayout from '$lib/components/ColumnLayout.svelte';
 	import Image from '$lib/components/Image.svelte';
 	import Line from '$lib/components/Line.svelte';
 	import Projects from '$lib/components/Projects.svelte';
-	import ToTop from '$lib/components/ToTop.svelte';
+
+	/** @type {import('./$types').PageData} */
+	export let data;
+
+	let useOneColumn = false
+
+	function handleResize() {
+		useOneColumn = window.innerWidth < 770
+  }
+
+  onMount(() => {
+		if (browser) {
+			window.addEventListener('resize', handleResize);
+			handleResize()
+		} 
+
+  });
+
+  onDestroy(() => {
+		if (browser) {
+			window.removeEventListener('resize', handleResize);
+		}
+  });
 </script>
 
 <div class="index">
-	<ColumnLayout>
-		<div slot="column1">
+	{#if useOneColumn}
+		<div class="mobile">
 			<div class="title">
-				Sara<br />Hafezi<br />Myrstad 
+				Sara Hafezi Myrstad
 			</div>
-			<About />
-			<!-- <Line
-				data={{
-					height: '1450px',	
-					margin: '303px 0 23px 69px'
-				}}
-			/>
-			<div class="to-top">
-				<ToTop />
-			</div> -->
-		</div>
-		<div slot="column2">
 			<div class="profile">
 				<Image
 					data={{
@@ -40,15 +49,42 @@
 					}}
 				/>
 			</div>
-			<Line
-				data={{
-					height: '300px',
-					margin: '34px 0 -46px 234px'
-				}}
-			/>
-			<Projects projects={data.projects} />
+			<About />
+			<div class="projects">
+				<Projects projects={data.projects} />
+			</div>
 		</div>
-	</ColumnLayout>
+	{:else}
+		<ColumnLayout>
+			<div slot="column1">
+				<div class="title">
+					Sara<br />Hafezi<br />Myrstad
+				</div>
+				<About />
+			</div>
+			<div slot="column2">
+				<div class="profile">
+					<Image
+						data={{
+							image:
+								'https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/sara.png?alt=media',
+							alt: 'profilbilde',
+							width: '195px',
+							minHeight: '226px',
+							opacity: '90%'
+						}}
+					/>
+				</div>
+				<Line
+					data={{
+						height: '300px',
+						margin: '34px 0 -46px 234px'
+					}}
+				/>
+				<Projects projects={data.projects} />
+			</div>
+		</ColumnLayout>
+	{/if}
 
 </div>
 
@@ -68,7 +104,35 @@
 		margin: 40px 0 0 136px;
 	}
 
-	.to-top {
-		margin-left: 0px;
-	}
+  @media screen and (max-width: 770px) {
+    .index {
+			margin: 20px;
+		}
+		
+		.mobile {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.title {
+      margin: 0px;
+			font-size: 30px;
+			display: flex;
+			justify-content: center;
+    }
+
+		.profile {
+			margin: 40px 0 60px 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		.projects {
+			margin: 100px 0 40px 92px;
+			display: flex;
+			justify-content: center;
+		}
+  }
+
 </style>

@@ -11,8 +11,7 @@
 <style>
   .about {
     display: flex;
-    position: absolute;
-    width: 450px;
+    max-width: 450px;
   }
 
   h2 {

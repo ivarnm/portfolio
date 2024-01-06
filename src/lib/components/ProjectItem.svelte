@@ -15,7 +15,7 @@
   .project {
     display: flex;
     position: relative;
-    width: 477px;
+    max-width: 477px;
     height: 156px;
     overflow: hidden;
     flex-direction: column;
@@ -27,7 +27,6 @@
 
   img {
     max-width: 100%;
-    max-height: 100%;
     object-fit: scale-down;
     transition: transform var(--transistion-duration);
   }
@@ -54,6 +53,16 @@
   h3 {
     margin: 0 0 5px 0;
     font-size: 24px;
+  }
+
+  @media screen and (max-width: 770px) {
+    .overlay {
+      display: none;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
   }
   
 </style>
