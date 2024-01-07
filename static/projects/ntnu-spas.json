@@ -129,8 +129,8 @@
         "margin": "16px 0 16px 252px"
       },
       {
-        "type": "Text",
-        "text": "For mer informasjon se SPAS eller Fremtidens Campus sine nettsider.",
+        "type": "LinkText",
+        "text": "For mer informasjon se [SPAS](https://www.ntnu-spas.net/) eller [Fremtidens Campus](https://www.ntnu.no/fremtidenscampus/fremtidenscampus) sine nettsider.",
         "width": "371px",
         "margin": "0 0 0 181px",
         "mobileOrder": 12

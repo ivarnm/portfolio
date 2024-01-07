@@ -3,6 +3,7 @@
 	import Image from '$lib/components/Image.svelte';
 	import Line from '$lib/components/Line.svelte';
 	import LinkImage from '$lib/components/LinkImage.svelte';
+	import LinkText from '$lib/components/LinkText.svelte';
 	import Text from '$lib/components/Text.svelte';
   import Video from '$lib/components/Video.svelte';
 
@@ -13,6 +14,7 @@
     "Image": Image,
     "Line": Line,
     "LinkImage": LinkImage,
+    "LinkText": LinkText,
     "Text": Text,
     "Video": Video
   }
