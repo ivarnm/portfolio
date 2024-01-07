@@ -28,5 +28,15 @@
 		text-decoration: none;
 		font-size: 24px;
 		margin-left: 10%;
+	}
+
+	@media screen and (max-width: 1108px) {
+		header {
+			margin-top: 20px;
 		}
+
+		.home {
+			margin-left: 20px;
+		}
+  }
 </style>

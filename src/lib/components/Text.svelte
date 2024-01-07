@@ -5,7 +5,7 @@
   export let data;
 
   const text = css`
-    width: ${!$useOneColumn ? data.width : 'auto'};
+    width: ${!$useOneColumn ? data.width : '100%'};
     margin: ${data.margin && !$useOneColumn ? data.margin : '20px 0'};
   `;
 </script>
