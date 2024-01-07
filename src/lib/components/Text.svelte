@@ -1,11 +1,12 @@
 <script>
   import { css } from '@emotion/css'
+  import { useOneColumn } from '$lib/stores/stores.js'
 
   export let data;
 
   const text = css`
-    width: ${data.width};
-    margin: ${data.margin ? data.margin : 0};
+    width: ${!$useOneColumn ? data.width : 'auto'};
+    margin: ${data.margin && !$useOneColumn ? data.margin : '20px 0'};
   `;
 </script>
 

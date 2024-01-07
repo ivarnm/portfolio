@@ -7,13 +7,15 @@
         "value": "Klostergata 56 Co-design",
         "year": "2021-2022",
         "width": "407px",
-        "margin": "3px 0 0 205px"
+        "margin": "3px 0 0 205px",
+        "mobileOrder": 0
       },
       {
         "type": "Text",
         "text": "Dette prosjektet var en del av to større byutviklingsprosjekter som foregår i Trondheim, Bycampus Elgeseter og Knowledge Axis, i samarbeid med ulike aktører.\n\nDe direkte interessentene knyttet til dette praksisprosjektet inkluderer beboere, SIT, studenter, BUP-klinikken ledet av St. Olavs hospital, og COOP Prix supermarked. Interessentene involvert i de andre bredere utviklingsprosjektene var imidlertid NTNU, Trondheim kommune, StudyTrondheim, SIT, innbyggere og studenter.",
         "width": "377px",
-        "margin": "128px 0 0 160px"
+        "margin": "128px 0 0 160px",
+        "mobileOrder": 1
       },
       {
         "type": "Line",
@@ -25,7 +27,8 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/klostergata%2Fview_project_2.jpg?alt=media",
         "alt": "Illustrasjonsfoto 1",
         "width": "537px",
-        "minHeight": "413px"
+        "minHeight": "413px",
+        "mobileOrder": 4
       },
       {
         "type": "Image",
@@ -33,14 +36,16 @@
         "alt": "Illustrasjonsfoto 2",
         "width": "537px",
         "minHeight": "415px",
-        "margin": "22px 0 22px 0"
+        "margin": "22px 0 22px 0",
+        "mobileOrder": 5
       },
       {
         "type": "Image",
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/klostergata%2Fplan2.png?alt=media",
         "alt": "Plan",
         "width": "537px",
-        "minHeight": "717px"
+        "minHeight": "717px",
+        "mobileOrder": 6
       },
       {
         "type": "Line",
@@ -56,14 +61,16 @@
         "margin": "0 0 499px 0",
         "opacity": "80%",
         "showAlt": true,
-        "altMargin": "17px 0 0 160px"
+        "altMargin": "17px 0 0 160px",
+        "mobileOrder": 9
       },
       {
         "type": "Image",
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/klostergata%2Fcafe%20stand.png?alt=media",
         "alt": "Illustrasjonsbilde av kafévogn",
         "width": "537px",
-        "minHeight": "805px"
+        "minHeight": "805px",
+        "mobileOrder": 11
       },
       {
         "type": "Line",
@@ -75,13 +82,15 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/klostergata%2Fintervention%20finale.png?alt=media",
         "alt": "Løsningsskisse av området",
         "width": "911px",
-        "minHeight": "607px"
+        "minHeight": "607px",
+        "mobileOrder": 14
       },
       {
         "type": "Text",
         "text": "Romprototypen ble etter hvert plassert foran studentboligene til SiT ved Klostergata. Flere ideer fra interessenter ble vurdert i dette testprosjektet, inkludert kunst, benker, kunstgress, planter og blomster.",
         "width": "377px",
-        "margin": "252px 0 507px 160px"
+        "margin": "252px 0 507px 160px",
+        "mobileOrder": 16
       },
       {
         "type": "Image",
@@ -89,7 +98,8 @@
         "alt": "Bilde fra arbeidet",
         "width": "537px",
         "minHeight": "716px",
-        "opacity": "80%"
+        "opacity": "80%",
+        "mobileOrder": 17
       },
       {
         "type": "Line",
@@ -102,7 +112,8 @@
         "alt": "Detaljbilde fra nærområdet",
         "width": "806px",
         "minHeight": "575px",
-        "opacity": "80%"
+        "opacity": "80%",
+        "mobileOrder": 19
       }
     ],
     [
@@ -112,13 +123,15 @@
         "alt": "Kart over Trondheim",
         "width": "515px",
         "minHeight": "439px",
-        "margin": "114px 0 475px 37px"
+        "margin": "114px 0 475px 37px",
+        "mobileOrder": 2
       },
       {
         "type": "Text",
         "text": "De neste stegene ble tatt basert på de første designene, tilbakemeldingene og brainstorming-workshops i teamet. Det ble holdt flere arrangementer på stedet der vi spurte beboerne og forbipasserende om deres mening om de tidligere implementeringene og deres anbefalinger for dette området. Tilbakemeldingen ble brukt til å designe de endelige testprototypene som taktiske urbanismemetoder.",
         "width": "377px",
-        "margin": "0 0 0 44px"
+        "margin": "0 0 0 44px",
+        "mobileOrder": 3
       },
       {
         "type": "Line",
@@ -132,7 +145,8 @@
         "width": "570px",
         "minHeight": "534px",
         "margin": "0 0 66px -18px",
-        "opacity": "90%"
+        "opacity": "90%",
+        "mobileOrder": 7
       },
       {
         "type": "Image",
@@ -141,7 +155,8 @@
         "width": "570px",
         "minHeight": "509px",
         "margin": "0 0 401px -18px",
-        "opacity": "90%"
+        "opacity": "90%",
+        "mobileOrder": 8
       },
       {
         "type": "Image",
@@ -150,7 +165,8 @@
         "width": "487px",
         "minHeight": "649px",
         "margin": "0 0 0 65px",
-        "opacity": "80%"
+        "opacity": "80%",
+        "mobileOrder": 10
       },
       {
         "type": "Line",
@@ -161,13 +177,15 @@
         "type": "Text",
         "text": "Design for prototypene",
         "width": "377px",
-        "margin": "0 0 276px 65px"
+        "margin": "0 0 276px 65px",
+        "mobileOrder": 12
       },
       {
         "type": "Text",
         "text": "Testing av visualisering basert på gjenbruksmateriell som er tilgjengelig for prosjektet.",
         "width": "377px",
-        "margin": "0 0 730px 44px"
+        "margin": "0 0 730px 44px",
+        "mobileOrder": 13
       },
       {
         "type": "Image",
@@ -176,7 +194,8 @@
         "width": "487px",
         "minHeight": "649px",
         "margin": "0 0 0 44px",
-        "opacity": "80%"
+        "opacity": "80%",
+        "mobileOrder": 15
       },
       {
         "type": "Line",
@@ -190,7 +209,8 @@
         "width": "746px",
         "minHeight": "559px",
         "margin": "0 0 0 -194px",
-        "opacity": "80%"
+        "opacity": "80%",
+        "mobileOrder": 18
       }
     ]
   ]

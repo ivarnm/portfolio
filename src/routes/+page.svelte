@@ -10,10 +10,10 @@
 	/** @type {import('./$types').PageData} */
 	export let data;
 
-	let useOneColumn = false
+	let useOneColumn = null
 
 	function handleResize() {
-		useOneColumn = window.innerWidth < 770
+		useOneColumn = document.documentElement.clientWidth <= 770
   }
 
   onMount(() => {
@@ -32,7 +32,7 @@
 </script>
 
 <div class="index">
-	{#if useOneColumn}
+	{#if useOneColumn === true}
 		<div class="mobile">
 			<div class="title">
 				Sara Hafezi Myrstad
@@ -54,7 +54,7 @@
 				<Projects projects={data.projects} />
 			</div>
 		</div>
-	{:else}
+	{:else if useOneColumn === false}
 		<ColumnLayout>
 			<div slot="column1">
 				<div class="title">

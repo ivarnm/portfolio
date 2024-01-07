@@ -7,13 +7,15 @@
         "type": "Header",
         "value": "Nyreina Områdeplan",
         "year": "2023",
-        "width": "358px"
+        "width": "358px",
+        "mobileOrder": 0
       },
       {
         "type": "Text",
         "text": "Reina er en bydel i Trondheim med en sterk industriell og sosial historie. Dette prosjektet hadde som mål å foreslå arealløsninger og forslag innen reguleringsplanlegging for å skape et levende og bærekraftig nabolag som passer inn i området. Kravet til det tverrfaglige teamet av arkitekter, fysiske planleggere og eiendomsforvaltningseksperter, var å tilby en blandet arealbruk av boliger og kommersiell virksomhet. Målet var å skape et område som er et fyrtårn for andre områder når det gjelder bærekraftige mobilitetsnettverk, arealbruk og aktiviteter.",
         "width": "377px",
-        "margin": "128px 0 0 160px"
+        "margin": "128px 0 0 160px",
+        "mobileOrder": 1
       },
       {
         "type": "Line",
@@ -26,14 +28,16 @@
         "alt": "Mobilitet, transport og tilgjengelighet i Reina",
         "width": "809px",
         "minHeight": "569px",
-        "margin": "0 0 390px 0"
+        "margin": "0 0 390px 0",
+        "mobileOrder": 4
       },
       {
         "type": "Image",
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fperspective.png?alt=media",
         "alt": "Perspektiv av Reina",
         "width": "1108px",
-        "minHeight": "668px"
+        "minHeight": "668px",
+        "mobileOrder": 5
       },
       {
         "type": "Line",
@@ -46,7 +50,8 @@
         "alt": "Reguleringsplan",
         "width": "1108px",
         "minHeight": "783px",
-        "margin": "0 0 150px 0"
+        "margin": "0 0 150px 0",
+        "mobileOrder": 8
       },
       {
         "type": "Image",
@@ -55,7 +60,8 @@
         "width": "536px",
         "minHeight": "539px",
         "showAlt": true,
-        "altMargin": "17px 0 0 142px"
+        "altMargin": "17px 0 0 142px",
+        "mobileOrder": 9
       }
     ],
     [
@@ -65,13 +71,15 @@
         "alt": "Stedsanalyse",
         "width": "547px",
         "minHeight": "730px",
-        "margin": "40px 0 671px 5px"
+        "margin": "40px 0 671px 5px",
+        "mobileOrder": 2
       },
       {
         "type": "Text",
         "text": "Prosjektet brukte også Superblock-modellen for prosjektområdets mobilitetsnett som betyr at bilene vil ha lavere hastighet (inntil 10 km/t) innenfor blokkområdene og normal hastighet i de tilhørende veiene. For å sikre lav hastighet på bilene og en visuell sammenheng med sentrumsområdet, var det foreslåtte vegdekkematerialet i prosjektet brostein.",
         "width": "377px",
-        "margin": "0 0 0 65px"
+        "margin": "0 0 0 65px",
+        "mobileOrder": 3
       },
       {
         "type": "Line",
@@ -82,7 +90,8 @@
         "type": "Text",
         "text": "For å respektere de omkringliggende områdene fulgte de foreslåtte typologiene deres former og arealbruk. Området lå for eksempel rett ved Svartlamoen, et unikt byøkologisk nabolag. For å ivareta det helhetlige området, samt en jevn overgang, ble det plassert en buffer av vegetasjon etter rekkehusene mellom nabolaget og resten av området.",
         "width": "377px",
-        "margin": "0 0 0 65px"
+        "margin": "0 0 0 65px",
+        "mobileOrder": 6
       },
       {
         "type": "Image",
@@ -90,7 +99,8 @@
         "alt": "Kart over Reina",
         "width": "946px",
         "minHeight": "689px",
-        "margin": "35px 0 0 -394px"
+        "margin": "35px 0 0 -394px",
+        "mobileOrder": 7
       },
       {
         "type": "Line",
@@ -103,7 +113,8 @@
         "alt": "Statistikk på antall boenheter",
         "width": "570px",
         "minHeight": "278px",
-        "margin": "0 0 0 -18px"
+        "margin": "0 0 0 -18px",
+        "mobileOrder": 10
       }
 
     ]

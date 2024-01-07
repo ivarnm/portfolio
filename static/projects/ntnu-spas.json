@@ -7,13 +7,15 @@
         "value": "Fremtidens Campus: Shared Spaces for Innovation (SPAS)",
         "year": "2021-2023",
         "fontSize": "22px",
-        "width": "358px"
+        "width": "358px",
+        "mobileOrder": 0
       },
       {
         "type": "Text",
         "text": "Prosjektet NTNU SPAS \"Shared Spaces for Innovation\" søker å utforske potensialet til åpne delte rom som motoren for å forbinde mennesker, vekke inspirasjon og fremme nye ideer, kreativitet så vel som innovasjon. NTNU SPAS Fase II har som mål å beskrive og forstå situasjonen til offentlige rom på NTNUs hovedcampus i Gløshaugen, Trondheim.",
         "width": "377px",
-        "margin": "74px 0 0 160px"
+        "margin": "74px 0 0 160px",
+        "mobileOrder": 1
       },
       {
         "type": "Line",
@@ -26,13 +28,15 @@
         "alt": "Stand med postere av prosjetet",
         "width": "489px",
         "minHeight": "367px",
-        "opacity": "80%"
+        "opacity": "80%",
+        "mobileOrder": 3
       },
       {
         "type": "Text",
         "text": "For å gi deltakerne en klar idé om offentlige rom på campus utarbeidet vi et Nolli-kart. Hvit viser de offentlige områdene på campus som ikke trenger korttilgang i arbeidstiden og svart viser private eller begrensede områder.",
         "width": "377px",
-        "margin": "529px 0 0 160px"
+        "margin": "529px 0 0 160px",
+        "mobileOrder": 6
       },
       {
         "type": "Line",
@@ -44,7 +48,8 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FIMG_6880.JPG?alt=media",
         "alt": "Person som holder foredrag under et workshop",
         "width": "489px",
-        "minHeight": "325px"
+        "minHeight": "325px",
+        "mobileOrder": 8
       },
       {
         "type": "Image",
@@ -52,14 +57,16 @@
         "alt": "Gruppe som sitter rundt et bord og diskuterer under workshopen",
         "width": "489px",
         "minHeight": "325px",
-        "margin": "20px 0 20px 0"
+        "margin": "20px 0 20px 0",
+        "mobileOrder": 10
       },
       {
         "type": "Image",
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2FIMG_6999.JPG?alt=media",
         "alt": "Tavle med ideer fra workshopen",
         "width": "489px",
-        "minHeight": "325px"
+        "minHeight": "325px",
+        "mobileOrder": 11
       }
     ],
     [
@@ -70,7 +77,8 @@
         "width": "364px",
         "minHeight": "520px",
         "margin": "50px 0 0 188px",
-        "showAlt": true
+        "showAlt": true,
+        "mobileOrder": 2
       },
       {
         "type": "Line",
@@ -81,7 +89,8 @@
         "type": "Text",
         "text": "Som forskningsassistent omfattet ansvaret for SPAS-prosjektet prosjektledelsesoppgaver. Starten av prosjektet bestod av strategiutforming, testworkshoper med GIS kartlegging, og interessentkartlegging. Sluttfasen inkluderte interessentengasjement og kommunikasjon, workshoparrangement, dokumentasjonsteamledelse og rapporter.",
         "width": "394px",
-        "margin": "0 0 44px 44px"
+        "margin": "0 0 44px 44px",
+        "mobileOrder": 4
       },
       {
         "type": "Image",
@@ -90,7 +99,8 @@
         "width": "364px",
         "minHeight": "273px",
         "margin": "50px 0 0 188px",
-        "opacity": "80%"
+        "opacity": "80%",
+        "mobileOrder": 5
       },
       {
         "type": "Line",
@@ -103,13 +113,15 @@
         "alt": "Nolli-kart av Gløshaugen, NTNU",
         "width": "364px",
         "minHeight": "520px",
-        "margin": "0 0 0 188px"
+        "margin": "0 0 0 188px",
+        "mobileOrder": 7
       },
       {
         "type": "Text",
         "text": "Workshopen inkluderte presentasjoner av eksperter innen offentlig rom og fellesskap som Aksel Tjora og aktiviteter for deltakere som fremmer ideer for å forbedre det offentlige rommet på campus.",
         "width": "371px",
-        "margin": "505px 0 0 181px"
+        "margin": "505px 0 0 181px",
+        "mobileOrder": 9
       },
       {
         "type": "Line",
@@ -120,7 +132,8 @@
         "type": "Text",
         "text": "For mer informasjon se SPAS eller Fremtidens Campus sine nettsider.",
         "width": "371px",
-        "margin": "0 0 0 181px"
+        "margin": "0 0 0 181px",
+        "mobileOrder": 12
       }
     ]
   ]

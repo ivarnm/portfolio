@@ -1,12 +1,13 @@
 <script>
   import { css } from '@emotion/css'
+  import { useOneColumn } from '$lib/stores/stores.js'
   
   export let data;
 
   const image = css`
-    width: ${data.width};
-    min-height: ${data.minHeight ? data.minHeight : 0};
-    margin: ${data.margin ? data.margin : 0};
+    width: ${!$useOneColumn ? data.width : 'auto'};
+    min-height: ${data.minHeight && !$useOneColumn ? data.minHeight : 0};
+    margin: ${data.margin && !$useOneColumn ? data.margin : '20px 0'};
   `;
 
   const img = css`
@@ -14,8 +15,8 @@
   `;
 
   const alt = css`
-    margin: ${data.altMargin ? data.altMargin : "17px 0 0 0"};
-    width: ${data.altWidth ? data.altWidth : "371px"};
+    margin: ${!$useOneColumn ? (data.altMargin ? data.altMargin : "17px 0 0 0") : 'auto'};
+    width: ${!$useOneColumn ? (data.altWidth ? data.altWidth : "371px") : 'auto'};
   `;
 </script>
 

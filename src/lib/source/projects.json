@@ -2,31 +2,26 @@
   {
     "id": "walkmore",
     "title": "WALKMORE",
-    "description": "Dette er mitt første prosjekt",
     "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fcover.jpg?alt=media"
   },
   {
     "id": "ntnu-spas",
     "title": "Fremtidens Capmus, SPAS",
-    "description": "Dette er mitt andre prosjekt",
     "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/spas%2Fcover.PNG?alt=media"
   },
   {
     "id": "klostergata56",
     "title": "Klostergata 56 Co-Design",
-    "description": "Dette er mitt første prosjekt",
     "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/klostergata%2Fcover.jpg?alt=media"
   },
   {
     "id": "saving-the-postcard",
     "title": "Saving the Postcard",
-    "description": "Dette er mitt andre prosjekt",
     "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/postcard%2Fcover.jpg?alt=media"
   },
   {
     "id": "nyreina",
     "title": "Nyreina områdereguleringsplan",
-    "description": "Dette er mitt første prosjekt",
     "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fcover.png?alt=media"
   }
 ]

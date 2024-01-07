@@ -8,20 +8,23 @@
         "value": "Saving the Postcard: Beredskaps-\nplanlegging",
         "year": "2022",
         "width": "407px",
-        "margin": "3px 0 0 205px"
+        "margin": "3px 0 0 205px",
+        "mobileOrder": 0
       },
       {
         "type": "Text",
         "text": "Østre Midtbyen, Bakklandet og Solsiden har blitt en betydelig del det historiske og moderne Trondheim. Dette er et område av byen hvor mange oppholder seg, fra lokalbefolkningen til turister. Det er et lavtliggende område hvor faren for flom fra havnivåstigning er mye høyere enn i mange andre deler av Trondheim. Dette er en risiko som må erkjennes, og derfor bør beredskapsplaner lages for å bidra til å sikre sikkerheten og velstanden til byområdene. På den måten kan postkortet reddes og nytes av kommende generasjoner.",
         "width": "377px",
-        "margin": "56px 0 118px 160px"
+        "margin": "56px 0 118px 160px",
+        "mobileOrder": 1
       },
       {
         "type": "Image",
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/postcard%2Fstorm1.jpg?alt=media",
         "alt": "Berørte bygninger ved en 20-årsflom",
         "width": "430px",
-        "minHeight": "615px"
+        "minHeight": "615px",
+        "mobileOrder": 4
       },
       {
         "type": "Image",
@@ -29,14 +32,16 @@
         "alt": "Berørte bygninger ved en 200-årsflom",
         "width": "430px",
         "minHeight": "620px",
-        "margin": "30px 0 30px 0"
+        "margin": "30px 0 30px 0",
+        "mobileOrder": 5
       },
       {
         "type": "Image",
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/postcard%2Fstorm3.jpg?alt=media",
         "alt": "Berørte bygninger ved en 1000-årsflom",
         "width": "430px",
-        "minHeight": "613px"
+        "minHeight": "613px",
+        "mobileOrder": 6
       },
       {
         "type": "Image",
@@ -44,13 +49,15 @@
         "alt": "Metode",
         "width": "946px",
         "minHeight": "673px",
-        "margin": "103px 0 54px 0"
+        "margin": "103px 0 54px 0",
+        "mobileOrder": 8
       },
       {
         "type": "Text",
         "text": "Siden scenarioet la til grunn at det ikke eksiterer en enhet for beredskap i kommunen, ble det forsøkt å identifisere hvilke interessenter som kan ta ansvar og hvordan de bør inkluderes i prosessen. Det ble også gjennomført en kost/nytte vurdering av de ulike løsningene.",
         "width": "377px",
-        "margin": "0 0 0 160px"
+        "margin": "0 0 0 160px",
+        "mobileOrder": 9
       },
       {
         "type": "Line",
@@ -62,7 +69,8 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/postcard%2FArtboard%201.png?alt=media",
         "alt": "Artboard",
         "width": "805px",
-        "minHeight": "465px"
+        "minHeight": "465px",
+        "mobileOrder": 10
       },
       {
         "type": "Image",
@@ -70,7 +78,8 @@
         "alt": "Liste over forberedelser og øvelser for å være forberedt på en eventuell krise",
         "width": "742px",
         "minHeight": "885px",
-        "margin": "405px 0 313px 0"
+        "margin": "405px 0 313px 0",
+        "mobileOrder": 12
       },
       {
         "type": "Image",
@@ -78,7 +87,8 @@
         "alt": "Tidslinje for beredskapsplan",
         "width": "1108px",
         "minHeight": "477px",
-        "showAlt": true
+        "showAlt": true,
+        "mobileOrder": 13
       },
       {
         "type": "Line",
@@ -91,7 +101,8 @@
         "alt": "Løsninger og implementeringsområde",
         "width": "742px",
         "minHeight": "720px",
-        "margin": "0 0 449px 0"
+        "margin": "0 0 449px 0",
+        "mobileOrder": 14
       },
       {
         "type": "Image",
@@ -100,7 +111,8 @@
         "width": "1108px",
         "minHeight": "374px",
         "showAlt": true,
-        "altMargin": "0 0 0 160px"
+        "altMargin": "0 0 0 160px",
+        "mobileOrder": 16
       }
     ],
     [
@@ -110,7 +122,8 @@
         "alt": "Stedsanalyse",
         "width": "508px",
         "minHeight": "565px",
-        "margin": "172px 0 0 44px"
+        "margin": "172px 0 0 44px",
+        "mobileOrder": 2
       },
       {
         "type": "Line",
@@ -121,7 +134,8 @@
         "type": "Text",
         "text": "Det gitte scenariet for dette prosjektet var å lage en beredskapsplan for følgende forhold:\n• Trondheim er en by med høy tetthet og er utsatt for flom forårsaket av havnivåstigning\n• Kommunen har betydelige ressurser, men har ikke en egen katastrofehåndteringsmyndighet.\n\nMålet var å undersøke hvordan kommunen kan forberede seg på fremtidig havnivåstigning og stormflo ved hjelp av ulike interessenter og ressurser.",
         "width": "403px",
-        "margin": "0 0 0 44px"
+        "margin": "0 0 0 44px",
+        "mobileOrder": 3
       },
       {
         "type": "Line",
@@ -132,13 +146,15 @@
         "type": "Text",
         "text": "Berørte bygninger fra en stormflo med ulike gjentaksintervaller basert på år 2090. Analyser i ArcGIS viser at 83 bygninger vil bli berørt av en 20-årsflom, 113 bygninger av en 200-årsflom og 128 bygninger av en 1000-årsflom.",
         "width": "377px",
-        "margin": "0 0 1932px 44px"
+        "margin": "0 0 1932px 44px",
+        "mobileOrder": 7
       },
       {
         "type": "Text",
         "text": "Driftsstøtteplan og relaterte interessenter",
         "width": "377px",
-        "margin": "0 0 0 44px"
+        "margin": "0 0 0 44px",
+        "mobileOrder": 11
       },
       {
         "type": "Line",
@@ -154,7 +170,8 @@
         "type": "Text",
         "text": "Løsninger og implementeringsområde",
         "width": "377px",
-        "margin": "0 0 0 65px"
+        "margin": "0 0 0 65px",
+        "mobileOrder": 15
       }
     ]
   ]

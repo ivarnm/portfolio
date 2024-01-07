@@ -5,13 +5,15 @@
       {
         "type": "Header",
         "value": "WALKMORE",
-        "year": "2023"
+        "year": "2023",
+        "mobileOrder": 0
       },
       {
         "type": "Text",
         "text": "Dette prosjektet utforsker gangvennlighet, inkluderende mobilitet og byrom i mindre norske byer med et mål om å forstå hvordan gangvennlighet kan skape inkluderende rom og fremme bærekraftig transport. Fokuset ligger på viktigheten av gangvennlighet i utformingen av inkluderende rom, rollen til ulike befolkningsgrupper i utformingen av inkluderende mobilitet, hvordan ulike befolkningsgrupper påvirker utformingen av inkluderende mobilitet, de ulike behovene for å gå i forskjellige sosiodemografiske grupper, forbedringspunkter i planleggingen av gangvennlighet i mindre byer og anvendelige metoder. Denne masteroppgaven er en del av WALMORE prosjektet ved Transportøkonomisk institutt (TØI).",
         "width": "377px",
-        "margin": "178px 0 0 160px"
+        "margin": "178px 0 0 160px",
+        "mobileOrder": 1
       },
       {
         "type": "Line",
@@ -23,13 +25,15 @@
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fpeople%20walk.jpg?alt=media",
         "alt": "Folk som går på et fortau",
         "width": "537px",
-        "minHeight": "805px"
+        "minHeight": "805px",
+        "mobileOrder": 3
       },
       {
         "type": "Text",
         "text": "Forbedringspunkter inkluderer tydelige målsetninger, interessentengasjement og tilpasning til urbane bærekraftsmål.\n\nResultatene impliserer behovet for utfyllende vurderingsrammer som tar hensyn til demografiske endringer og befolkningsbehov i bærekraftig transportplanlegging samt integrering av kvalitative og kvantitative metoder. Forskningen bidrar til diskusjonen om gangvennlighet og gir anbefalinger for å skape gangbare og inkluderende byer.",
         "width": "377px",
-        "margin": "108px 0 0 160px"
+        "margin": "108px 0 0 160px",
+        "mobileOrder": 5
       },
       {
         "type": "Line",
@@ -44,7 +48,8 @@
         "minHeight": "403px",
         "opacity": "80%",
         "showAlt": true,
-        "altMargin": "17px 0 0 160px"
+        "altMargin": "17px 0 0 160px",
+        "mobileOrder": 7
       },
       {
         "type": "Line",
@@ -55,14 +60,16 @@
         "type": "Text",
         "text": "Funnene fremhever viktigheten av gangvennlighet når man designer inkluderende rom, fremmer aktiv mobilitet og rettferdig tilgang til tjenester. De indikerer at kravene for å kunne gå varierer blant de sosiodemografiske gruppene med tanke på faktorer som infrastruktur, fasiliteter og attraktivitet. De kvantitative analysene viste at kjønn, alder og hvor lenge man har bodd i byen påvirker innbyggernes oppfatning av gangvennligheten i sentrum. I tillegg påvirket kjønn, alder, utdanningsnivå og førerkort befolkningens gåvaner i de ulike årstidene betydelig.",
         "width": "377px",
-        "margin": "0 0 55px 160px"
+        "margin": "0 0 55px 160px",
+        "mobileOrder": 9
       },
       {
         "type": "Image",
         "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2Fkongsvinger%20amenity.jpg?alt=media",
         "alt": "Kart over Kongsvinger",
         "width": "608px",
-        "minHeight": "500px"
+        "minHeight": "500px",
+        "mobileOrder": 10
       },
       {
         "type": "Image",
@@ -70,13 +77,15 @@
         "alt": "Strategisk kart av løsninger basert på resultater fra kvalitative og kvantitative analyser.",
         "width": "947px",
         "minHeight": "639px",
-        "margin": "150px 0 0 160px"
+        "margin": "150px 0 0 160px",
+        "mobileOrder": 11
       },
       {
         "type": "Text",
         "text": "Strategisk kart av løsninger basert på resultater fra kvalitative og kvantitative analyser.",
         "width": "371px",
-        "margin": "50px 0 0 0"
+        "margin": "50px 0 0 0",
+        "mobileOrder": 12
       },
       {
         "type": "Line",
@@ -90,7 +99,8 @@
         "width": "1106px",
         "minHeight": "743px",
         "showAlt": true,
-        "altMargin": "17px 0 0 160px"
+        "altMargin": "17px 0 0 160px",
+        "mobileOrder": 13
       },
       {
         "type": "Line",
@@ -105,7 +115,8 @@
         "width": "275px",
         "minHeight": "390px",
         "showAlt": true,
-        "altMargin": "6px 0 0 0px"
+        "altMargin": "6px 0 0 0px",
+        "mobileOrder": 14
       }
     ],
     [
@@ -115,13 +126,15 @@
         "alt": "Teller som teller antall sykler som passerer",
         "width": "487px",
         "minHeight": "730px",
-        "margin": "43px 0 0 65px"
+        "margin": "43px 0 0 65px",
+        "mobileOrder": 2
       },
       {
         "type": "Text",
         "text": "Med grunnlag i sosial praksisteori og retten til byen, legger det teoretiske rammeverket vekt på å forstå de sosiale og fysiske aspektene som påvirker våre gåvaner og fremme rettferdig tilgang til urbane ressurser. Forskningsmetodikken kombinerer kvalitative og kvantitative metoder for å analysere gangvennlighet og dens forskjeller i ulike befolkningsgrupper.",
         "width": "377px",
-        "margin": "258px 0 0 46px"
+        "margin": "258px 0 0 46px",
+        "mobileOrder": 4
       },
       {
         "type": "Line",
@@ -136,7 +149,8 @@
         "minHeight": "649px",
         "margin": "0 0 606px 65px",
         "opacity": "90%",
-        "showAlt": true
+        "showAlt": true,
+        "mobileOrder": 6
       },
       {
         "type": "Image",
@@ -146,7 +160,8 @@
         "minHeight": "325px",
         "margin": "0 0 0 65px",
         "opacity": "90%",
-        "showAlt": true
+        "showAlt": true,
+        "mobileOrder": 8
       },
       {
         "type": "Line",
@@ -163,7 +178,8 @@
         "margin": "0 0 0 -82px",
         "width": "634px",
         "source": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/walkmore%2FSara.mp4?alt=media&token=e216f69f-ebef-4862-bba2-dad67bca7142",
-        "text": "Se presentasjonen"
+        "text": "Se presentasjonen",
+        "mobileOrder": 15
       }
     ]
   ]
