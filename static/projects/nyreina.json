@@ -55,7 +55,7 @@
       },
       {
         "type": "Image",
-        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fpie%20chart.jpg?alt=media",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fpie%20chart.png?alt=media",
         "alt": "Boenhetstypologier basert på kvadratmeterareal.",
         "width": "536px",
         "minHeight": "539px",
@@ -109,7 +109,7 @@
       },
       {
         "type": "Image",
-        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fstats.jpg?alt=media",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/nyreina%2Fstats.png?alt=media",
         "alt": "Statistikk på antall boenheter",
         "width": "570px",
         "minHeight": "278px",
