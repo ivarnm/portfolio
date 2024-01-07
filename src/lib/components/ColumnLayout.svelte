@@ -20,7 +20,7 @@
   }
 
   .column {
-    border: 1px dotted #ff8d8d;
+    /* border: 1px dotted #ff8d8d; */
     position: relative;
   }
 </style>
