@@ -1,6 +1,7 @@
 <script>
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
+	import { useOneColumn } from '$lib/stores/stores.js'
 	import About from '$lib/components/About.svelte';
 	import ColumnLayout from '$lib/components/ColumnLayout.svelte';
 	import Image from '$lib/components/Image.svelte';
@@ -10,10 +11,8 @@
 	/** @type {import('./$types').PageData} */
 	export let data;
 
-	let useOneColumn = null
-
 	function handleResize() {
-		useOneColumn = document.documentElement.clientWidth <= 770
+		$useOneColumn = document.documentElement.clientWidth <= 770
   }
 
   onMount(() => {
@@ -32,7 +31,7 @@
 </script>
 
 <div class="index">
-	{#if useOneColumn === true}
+	{#if $useOneColumn === true}
 		<div class="mobile">
 			<div class="title">
 				Sara Hafezi Myrstad
@@ -54,7 +53,7 @@
 				<Projects projects={data.projects} />
 			</div>
 		</div>
-	{:else if useOneColumn === false}
+	{:else if $useOneColumn === false}
 		<ColumnLayout>
 			<div slot="column1">
 				<div class="title">
@@ -126,6 +125,7 @@
 			margin: 40px 0 60px 0;
 			display: flex;
 			justify-content: center;
+			max-width: 280px;
 		}
 
 		.projects {

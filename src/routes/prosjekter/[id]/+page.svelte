@@ -2,7 +2,6 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
 	import { useOneColumn } from '$lib/stores/stores.js'
-
 	import ToTop from '$lib/components/ToTop.svelte';
 	import ColumnLayout from '$lib/components/ColumnLayout.svelte';
   import Item from '$lib/components/Item.svelte';
