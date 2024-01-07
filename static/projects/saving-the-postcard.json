@@ -102,7 +102,8 @@
         "width": "742px",
         "minHeight": "720px",
         "margin": "0 0 449px 0",
-        "mobileOrder": 14
+        "mobileOrder": 14,
+        "showMobileAlt": true
       },
       {
         "type": "Image",
@@ -186,8 +187,7 @@
         "type": "Text",
         "text": "Løsninger og implementeringsområde",
         "width": "377px",
-        "margin": "0 0 0 65px",
-        "mobileOrder": 15
+        "margin": "0 0 0 65px"
       }
     ]
   ]

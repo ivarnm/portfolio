@@ -22,7 +22,7 @@
 
 <div class="image {image}">
   <img class="{img}" src={data.image} alt={data.alt}>
-  {#if data.showAlt}
+  {#if data.showAlt || ($useOneColumn && data.showMobileAlt)}
     <p class="{alt}">{data.alt}</p>
   {/if}
 </div>
