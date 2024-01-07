@@ -11,7 +11,6 @@
 	export let data;
 
 	$: mobileData = data.project.content.flat().filter(item => item.mobileOrder !== undefined).sort((a, b) => a.mobileOrder - b.mobileOrder);
-	$: console.log(mobileData.map(item => item.mobileOrder));
 
 	function handleResize() {
 		$useOneColumn = document.documentElement.clientWidth <= 1108
