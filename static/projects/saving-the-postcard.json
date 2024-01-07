@@ -113,6 +113,22 @@
         "showAlt": true,
         "altMargin": "0 0 0 160px",
         "mobileOrder": 16
+      },
+      {
+        "type": "Line",
+        "height": "341px",
+        "margin": "16px 0 16px 160px"
+      },
+      {
+        "type": "LinkImage",
+        "link": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/postcard%2FReport.pdf?alt=media",
+        "image": "https://firebasestorage.googleapis.com/v0/b/sara-hafezi.appspot.com/o/postcard%2Freport_cover.jpg?alt=media",
+        "alt": "Last ned rapporten",
+        "width": "275px",
+        "minHeight": "390px",
+        "showAlt": true,
+        "altMargin": "6px 0 0 0px",
+        "mobileOrder": 17
       }
     ],
     [
